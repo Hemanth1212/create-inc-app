@@ -1,20 +1,20 @@
 
-.outerdiv {
-    
-        width: 600px;
-        height: 150px;
-        
-        position: absolute;
-        top:0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-    
-  }
-
-  .outerdiv > div{
-    margin-bottom: 10px;
+#wrapper {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 600px;
+  max-height: 400px;
+  padding: 20px;
+  background-color: rgb(188 255 185 / 41%);
+  opacity: 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 7px 18px;
+} 
+  div{
+    margin-bottom: 5px;
   }
 
   .fields{
@@ -22,3 +22,19 @@
       margin-bottom: 10px;
 
   }
+  
+  .submitButton{
+    max-width: 150px;
+    max-height: 50px;
+    display:inline-block;
+    border-radius: 10px;
+  -webkit-appearance:button;
+  padding:3px 8px 3px 8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  position:relative;
+  cursor:context-menu;
+  }
+  

@@ -1,16 +1,11 @@
+body{
+  background-image: url("https://liftlegal.com.au/wp-content/uploads/2016/07/Office-background-1920-x-1080-Centre-blur.jpg");
+  
+}
 .App {
   text-align: center;
 }
 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(218, 219, 230);
-}
+
 
