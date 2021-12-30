@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/create-inc-app/static/css/main.ae1d5ffa.css",
+    "main.js": "/create-inc-app/static/js/main.b91f657d.js",
+    "static/js/787.6539dbd1.chunk.js": "/create-inc-app/static/js/787.6539dbd1.chunk.js",
+    "index.html": "/create-inc-app/index.html",
+    "main.ae1d5ffa.css.map": "/create-inc-app/static/css/main.ae1d5ffa.css.map",
+    "main.b91f657d.js.map": "/create-inc-app/static/js/main.b91f657d.js.map",
+    "787.6539dbd1.chunk.js.map": "/create-inc-app/static/js/787.6539dbd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae1d5ffa.css",
+    "static/js/main.b91f657d.js"
+  ]
+}
