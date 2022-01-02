@@ -60,9 +60,9 @@ export default function FullWidthTextField() {
     }
     let REQUEST_BODY = JSON.stringify(req_Body);
     let headers = new Headers();
-    headers.set('Authorization', 'Basic ' + base64.encode("admin:Admin@123"));
+    headers.set('Authorization', 'Basic ' + base64.encode("<USER_ID>:<PASSWORD>"));
     headers.set('Content-type', "application/json; charset=UTF-8");
-    fetch("https://ihubft.service-now.com/api/now/table/incident", {
+    fetch("https://<INSTANCE>.service-now.com/api/now/table/incident", {
       // Adding method type
       method: "POST",
       // Adding body or contents to send
